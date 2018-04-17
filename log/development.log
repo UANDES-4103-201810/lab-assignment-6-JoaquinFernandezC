@@ -1412,3 +1412,698 @@ Processing by SessionsController#new as HTML
 Completed 200 OK in 17ms (Views: 15.3ms | ActiveRecord: 0.0ms)
 
 
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[36mActiveRecord::InternalMetadata Load (0.2ms)[0m  [1m[34mSELECT  "ar_internal_metadata".* FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ? LIMIT ?[0m  [["key", "environment"], ["LIMIT", 1]]
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (0.1ms)[0m  [1m[34m            SELECT sql
+            FROM sqlite_master
+            WHERE name='index_events_on_place_id' AND type='index'
+            UNION ALL
+            SELECT sql
+            FROM sqlite_temp_master
+            WHERE name='index_events_on_place_id' AND type='index'
+[0m
+  [1m[35m (0.1ms)[0m  [1m[34m            SELECT sql
+            FROM sqlite_master
+            WHERE name='index_tickets_on_event_id' AND type='index'
+            UNION ALL
+            SELECT sql
+            FROM sqlite_temp_master
+            WHERE name='index_tickets_on_event_id' AND type='index'
+[0m
+  [1m[35m (0.2ms)[0m  [1m[34m            SELECT sql
+            FROM sqlite_master
+            WHERE name='index_user_tickets_on_ticket_id' AND type='index'
+            UNION ALL
+            SELECT sql
+            FROM sqlite_temp_master
+            WHERE name='index_user_tickets_on_ticket_id' AND type='index'
+[0m
+  [1m[35m (0.1ms)[0m  [1m[34m            SELECT sql
+            FROM sqlite_master
+            WHERE name='index_user_tickets_on_user_id' AND type='index'
+            UNION ALL
+            SELECT sql
+            FROM sqlite_temp_master
+            WHERE name='index_user_tickets_on_user_id' AND type='index'
+[0m
+Started GET "/" for 127.0.0.1 at 2018-04-17 13:03:37 -0300
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by SessionsController#new as HTML
+  Rendering sessions/new.html.erb within layouts/application
+  Rendered sessions/new.html.erb within layouts/application (11.0ms)
+Completed 200 OK in 2240ms (Views: 2226.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/sign_in" for 127.0.0.1 at 2018-04-17 13:03:42 -0300
+Processing by RegistrationsController#new as HTML
+  Rendering registrations/new.html.erb within layouts/application
+  Rendered registrations/new.html.erb within layouts/application (16.0ms)
+Completed 200 OK in 72ms (Views: 70.1ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/sign_in" for 127.0.0.1 at 2018-04-17 13:03:44 -0300
+Processing by RegistrationsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"zzZfF1RQe0LqBfWA+fKE1brxImRTkxBFjCAcj6AyeTeqQsC/4z61+OW3bibbnv9Q4u4SGcq54ZWrLbBqp5abtw==", "registrations"=>{"name"=>"", "last_name"=>"", "email"=>"", "phone"=>"", "password"=>"[FILTERED]"}, "commit"=>"Sign in"}
+No template found for RegistrationsController#create, rendering head :no_content
+Completed 204 No Content in 45ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-04-17 13:03:48 -0300
+Processing by SessionsController#new as HTML
+  Rendering sessions/new.html.erb within layouts/application
+  Rendered sessions/new.html.erb within layouts/application (4.2ms)
+Completed 200 OK in 87ms (Views: 85.8ms | ActiveRecord: 0.0ms)
+
+
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[36mActiveRecord::InternalMetadata Load (0.9ms)[0m  [1m[34mSELECT  "ar_internal_metadata".* FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ? LIMIT ?[0m  [["key", "environment"], ["LIMIT", 1]]
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (0.3ms)[0m  [1m[34m            SELECT sql
+            FROM sqlite_master
+            WHERE name='index_events_on_place_id' AND type='index'
+            UNION ALL
+            SELECT sql
+            FROM sqlite_temp_master
+            WHERE name='index_events_on_place_id' AND type='index'
+[0m
+  [1m[35m (0.2ms)[0m  [1m[34m            SELECT sql
+            FROM sqlite_master
+            WHERE name='index_tickets_on_event_id' AND type='index'
+            UNION ALL
+            SELECT sql
+            FROM sqlite_temp_master
+            WHERE name='index_tickets_on_event_id' AND type='index'
+[0m
+  [1m[35m (0.2ms)[0m  [1m[34m            SELECT sql
+            FROM sqlite_master
+            WHERE name='index_user_tickets_on_ticket_id' AND type='index'
+            UNION ALL
+            SELECT sql
+            FROM sqlite_temp_master
+            WHERE name='index_user_tickets_on_ticket_id' AND type='index'
+[0m
+  [1m[35m (0.3ms)[0m  [1m[34m            SELECT sql
+            FROM sqlite_master
+            WHERE name='index_user_tickets_on_user_id' AND type='index'
+            UNION ALL
+            SELECT sql
+            FROM sqlite_temp_master
+            WHERE name='index_user_tickets_on_user_id' AND type='index'
+[0m
+Started GET "/sign_in" for 127.0.0.1 at 2018-04-17 14:25:07 -0300
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by RegistrationsController#new as HTML
+  Rendering registrations/new.html.erb within layouts/application
+  Rendered registrations/new.html.erb within layouts/application (26.2ms)
+Completed 200 OK in 618ms (Views: 599.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-04-17 14:25:11 -0300
+Processing by SessionsController#new as HTML
+  Rendering sessions/new.html.erb within layouts/application
+  Rendered sessions/new.html.erb within layouts/application (10.0ms)
+Completed 200 OK in 70ms (Views: 66.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/sign_in" for 127.0.0.1 at 2018-04-17 14:25:14 -0300
+Processing by RegistrationsController#new as HTML
+  Rendering registrations/new.html.erb within layouts/application
+  Rendered registrations/new.html.erb within layouts/application (7.1ms)
+Completed 200 OK in 103ms (Views: 100.0ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/sign_in" for 127.0.0.1 at 2018-04-17 14:27:28 -0300
+Processing by RegistrationsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"yAtluAM9sNNT9nyIYAjojHpslDxEfD07Oe79OC46IEOtf/oQtFN+aVxE5y5CZJMJInOkQd1WzOse41HdKZ7Cww==", "registrations"=>{"name"=>"Joaquin", "last_name"=>"Fernandez", "email"=>"jafernandez1@miuandes.cl", "phone"=>"997196931", "password"=>"[FILTERED]"}, "commit"=>"Sign in"}
+Redirected to 
+Completed 500 Internal Server Error in 391ms (ActiveRecord: 0.0ms)
+
+
+  
+NoMethodError (undefined method `back_url' for #<RegistrationsController:0x007f48140eb678>):
+  
+app/controllers/registrations_controller.rb:19:in `create'
+Started POST "/sign_in" for 127.0.0.1 at 2018-04-17 14:28:49 -0300
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by RegistrationsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"yAtluAM9sNNT9nyIYAjojHpslDxEfD07Oe79OC46IEOtf/oQtFN+aVxE5y5CZJMJInOkQd1WzOse41HdKZ7Cww==", "registrations"=>{"name"=>"Joaquin", "last_name"=>"Fernandez", "email"=>"jafernandez1@miuandes.cl", "phone"=>"997196931", "password"=>"[FILTERED]"}, "commit"=>"Sign in"}
+Redirected to http://localhost:3000/sign_in
+Completed 302 Found in 19ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/sign_in" for 127.0.0.1 at 2018-04-17 14:28:50 -0300
+Processing by RegistrationsController#new as HTML
+  Rendering registrations/new.html.erb within layouts/application
+  Rendered registrations/new.html.erb within layouts/application (35.8ms)
+Completed 200 OK in 454ms (Views: 452.2ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/sign_in" for 127.0.0.1 at 2018-04-17 14:29:13 -0300
+Processing by RegistrationsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"nWx/znpDp3/2AOEZ8pxYQq6fdKXKWQ/PoDANPK+0D2+oXkB83pCZgIbQVAamujHpEqP7giDLm1FQFB96G37yKQ==", "registrations"=>{"name"=>"Joaquin", "last_name"=>"Fernandez", "email"=>"jafernandez1@miuandes.cl", "phone"=>"997196931", "password"=>"[FILTERED]"}, "commit"=>"Sign in"}
+Redirected to http://localhost:3000/sign_in
+Completed 302 Found in 4ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/sign_in" for 127.0.0.1 at 2018-04-17 14:29:13 -0300
+Processing by RegistrationsController#new as HTML
+  Rendering registrations/new.html.erb within layouts/application
+  Rendered registrations/new.html.erb within layouts/application (9.7ms)
+Completed 200 OK in 63ms (Views: 61.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/sign_in" for 127.0.0.1 at 2018-04-17 14:34:10 -0300
+  [1m[35m (0.4ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by RegistrationsController#new as HTML
+  Rendering registrations/new.html.erb within layouts/application
+  Rendered registrations/new.html.erb within layouts/application (40.4ms)
+Completed 200 OK in 526ms (Views: 508.4ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/sign_in" for 127.0.0.1 at 2018-04-17 14:34:35 -0300
+Processing by RegistrationsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"lFuiTh7usnwR0kKTzq7FctCsCdzaK4BJqkwCA1x1hxuhaZ38uj2Mg2EC94yaiKzZbJCG+zC5FNdaaBBF6L96XQ==", "registrations"=>{"name"=>"gfgjfjgfj", "last_name"=>"fghjfgfjhgf", "email"=>"fghjgfjg@ghjg.com", "phone"=>"456765458", "password"=>"[FILTERED]"}, "commit"=>"Sign in"}
+Redirected to http://localhost:3000/sign_in
+Completed 302 Found in 5ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/sign_in" for 127.0.0.1 at 2018-04-17 14:34:35 -0300
+Processing by RegistrationsController#new as HTML
+  Rendering registrations/new.html.erb within layouts/application
+  Rendered registrations/new.html.erb within layouts/application (3.7ms)
+Completed 200 OK in 66ms (Views: 64.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/sign_in" for 127.0.0.1 at 2018-04-17 14:41:00 -0300
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by RegistrationsController#new as HTML
+  Rendering registrations/new.html.erb within layouts/application
+  Rendered registrations/new.html.erb within layouts/application (34.3ms)
+Completed 200 OK in 417ms (Views: 398.4ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/sign_in" for 127.0.0.1 at 2018-04-17 14:41:17 -0300
+Processing by RegistrationsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"VKIZ4LFrJv7oMN3n05bkZ5yBOA0KXFvL/SlCPaen+7NhkCZSFbgYAZjgaPiHsI3MIL23KuDOz1UNDVB7E20G9Q==", "registrations"=>{"name"=>"Joaquin", "last_name"=>"Fernandez", "email"=>"jafernandez1@miuandes.cl", "phone"=>"997196931", "password"=>"[FILTERED]"}, "commit"=>"Sign in"}
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mUser Exists (0.3ms)[0m  [1m[34mSELECT  1 AS one FROM "users" WHERE "users"."email" = ? LIMIT ?[0m  [["email", "jafernandez1@miuandes.cl"], ["LIMIT", 1]]
+  [1m[35mSQL (3.8ms)[0m  [1m[32mINSERT INTO "users" ("name", "last_name", "email", "phone", "password", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?)[0m  [["name", "Joaquin"], ["last_name", "Fernandez"], ["email", "jafernandez1@miuandes.cl"], ["phone", "997196931"], ["password", "Joaco009"], ["created_at", "2018-04-17 17:41:17.271763"], ["updated_at", "2018-04-17 17:41:17.271763"]]
+  [1m[35m (9.1ms)[0m  [1m[36mcommit transaction[0m
+Redirected to http://localhost:3000/
+Completed 302 Found in 102ms (ActiveRecord: 18.7ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-04-17 14:41:17 -0300
+Processing by SessionsController#new as HTML
+  Rendering sessions/new.html.erb within layouts/application
+  Rendered sessions/new.html.erb within layouts/application (2.8ms)
+Completed 200 OK in 123ms (Views: 122.0ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/login" for 127.0.0.1 at 2018-04-17 14:41:37 -0300
+Processing by SessionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"T7h1Ytt12qfTq1LUhgBZRiglB0WbYLJbArFRqlqmrTt6ikrQf6bkWKN758vSJjDtlBmIYnHyJsXylUPs7mxQfQ==", "session"=>{"email"=>"jafernandez1@miuandes.cl", "password"=>"[FILTERED]"}, "commit"=>"Log In"}
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."email" IS NULL LIMIT ?[0m  [["LIMIT", 1]]
+  Rendering sessions/new.html.erb within layouts/application
+  Rendered sessions/new.html.erb within layouts/application (3.2ms)
+Redirected to 
+Completed 500 Internal Server Error in 92ms (Views: 78.7ms | ActiveRecord: 0.3ms)
+
+
+  
+AbstractController::DoubleRenderError (Render and/or redirect were called multiple times in this action. Please note that you may only call render OR redirect, and at most once per action. Also note that neither redirect nor render terminate execution of the action, so if you want to exit an action after redirecting, you need to do something like "redirect_to(...) and return".):
+  
+app/controllers/sessions_controller.rb:14:in `create'
+Started POST "/login" for 127.0.0.1 at 2018-04-17 14:42:11 -0300
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by SessionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"T7h1Ytt12qfTq1LUhgBZRiglB0WbYLJbArFRqlqmrTt6ikrQf6bkWKN758vSJjDtlBmIYnHyJsXylUPs7mxQfQ==", "session"=>{"email"=>"jafernandez1@miuandes.cl", "password"=>"[FILTERED]"}, "commit"=>"Log In"}
+  [1m[36mUser Load (0.6ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."email" IS NULL LIMIT ?[0m  [["LIMIT", 1]]
+Redirected to http://localhost:3000/
+Completed 302 Found in 50ms (ActiveRecord: 1.2ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-04-17 14:42:12 -0300
+Processing by SessionsController#new as HTML
+  Rendering sessions/new.html.erb within layouts/application
+  Rendered sessions/new.html.erb within layouts/application (24.6ms)
+Completed 200 OK in 393ms (Views: 391.5ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/login" for 127.0.0.1 at 2018-04-17 14:42:17 -0300
+Processing by SessionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"ucUm45frm4OPbaYJFGJGg3jeatcuIJ0R1FPTDDZyL4aM9xlRMzilfP+9ExZARC8oxOLl8MSyCY8kd8FKgrjSwA==", "session"=>{"email"=>"jafernandez1@miuandes.cl", "password"=>"[FILTERED]"}, "commit"=>"Log In"}
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."email" IS NULL LIMIT ?[0m  [["LIMIT", 1]]
+Redirected to http://localhost:3000/
+Completed 302 Found in 6ms (ActiveRecord: 0.2ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-04-17 14:42:17 -0300
+Processing by SessionsController#new as HTML
+  Rendering sessions/new.html.erb within layouts/application
+  Rendered sessions/new.html.erb within layouts/application (1.6ms)
+Completed 200 OK in 76ms (Views: 74.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/sign_in" for 127.0.0.1 at 2018-04-17 14:45:04 -0300
+  [1m[35m (0.9ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by RegistrationsController#new as HTML
+  Rendering registrations/new.html.erb within layouts/application
+  Rendered registrations/new.html.erb within layouts/application (29.1ms)
+Completed 200 OK in 443ms (Views: 416.1ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/sign_in" for 127.0.0.1 at 2018-04-17 14:45:09 -0300
+Processing by RegistrationsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"lK9GpuNd4WilGWELVw+mi2skjO3L3SYxvfPqgNbQGumhnXkUR47fl9XJ1BQDKc8g1xgDyiFPsq9N1/jGYhrnrw==", "registrations"=>{"name"=>"", "last_name"=>"", "email"=>"", "phone"=>"", "password"=>"[FILTERED]"}, "commit"=>"Sign in"}
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mUser Exists (0.5ms)[0m  [1m[34mSELECT  1 AS one FROM "users" WHERE "users"."email" = ? LIMIT ?[0m  [["email", ""], ["LIMIT", 1]]
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+Redirected to http://localhost:3000/sign_in
+Completed 302 Found in 65ms (ActiveRecord: 12.0ms)
+
+
+Started GET "/sign_in" for 127.0.0.1 at 2018-04-17 14:45:09 -0300
+Processing by RegistrationsController#new as HTML
+  Rendering registrations/new.html.erb within layouts/application
+  Rendered registrations/new.html.erb within layouts/application (3.1ms)
+Completed 200 OK in 65ms (Views: 63.5ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/sign_in" for 127.0.0.1 at 2018-04-17 14:46:21 -0300
+Processing by RegistrationsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"R+ebu+zK57xof+6iCt8blgfzdqDAVZ229q5AfqNecRly1aQJSBnZQxivW71e+XI9u8/5hyrHCSgGilI4F5SMXw==", "registrations"=>{"name"=>"alberto", "last_name"=>"fernandez", "email"=>"afernandez@gmail.com", "phone"=>"94750258", "password"=>"[FILTERED]"}, "commit"=>"Sign in"}
+  [1m[35m (0.3ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mUser Exists (0.2ms)[0m  [1m[34mSELECT  1 AS one FROM "users" WHERE "users"."email" = ? LIMIT ?[0m  [["email", "afernandez@gmail.com"], ["LIMIT", 1]]
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+Redirected to http://localhost:3000/sign_in
+Completed 302 Found in 72ms (ActiveRecord: 2.8ms)
+
+
+Started GET "/sign_in" for 127.0.0.1 at 2018-04-17 14:46:31 -0300
+Processing by RegistrationsController#new as HTML
+  Rendering registrations/new.html.erb within layouts/application
+  Rendered registrations/new.html.erb within layouts/application (8.9ms)
+Completed 200 OK in 102ms (Views: 101.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/sign_in" for 127.0.0.1 at 2018-04-17 14:46:48 -0300
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by RegistrationsController#new as HTML
+  Rendering registrations/new.html.erb within layouts/application
+  Rendered registrations/new.html.erb within layouts/application (46.3ms)
+Completed 200 OK in 548ms (Views: 536.0ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/sign_in" for 127.0.0.1 at 2018-04-17 14:47:06 -0300
+Processing by RegistrationsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"XYWKojEnS9XExa/XTUMvgeemPFtQa7It8Jx4rEBaVrBot7UQlfR1KrQVGsgZZUYqW5qzfLr5JrMAuGrq9JCr9g==", "registrations"=>{"name"=>"", "last_name"=>"", "email"=>"", "phone"=>"", "password"=>"[FILTERED]"}, "commit"=>"Sign in"}
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mUser Exists (2.8ms)[0m  [1m[34mSELECT  1 AS one FROM "users" WHERE "users"."email" = ? LIMIT ?[0m  [["email", ""], ["LIMIT", 1]]
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+Redirected to http://localhost:3000/sign_in
+Completed 302 Found in 65ms (ActiveRecord: 4.2ms)
+
+
+Started GET "/sign_in" for 127.0.0.1 at 2018-04-17 14:47:06 -0300
+Processing by RegistrationsController#new as HTML
+  Rendering registrations/new.html.erb within layouts/application
+  Rendered registrations/new.html.erb within layouts/application (10.6ms)
+Completed 200 OK in 123ms (Views: 121.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-04-17 14:47:56 -0300
+  [1m[35m (1.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by SessionsController#new as HTML
+  Rendering sessions/new.html.erb within layouts/application
+  Rendered sessions/new.html.erb within layouts/application (29.6ms)
+Completed 200 OK in 423ms (Views: 407.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/sign_in" for 127.0.0.1 at 2018-04-17 14:47:59 -0300
+Processing by RegistrationsController#new as HTML
+  Rendering registrations/new.html.erb within layouts/application
+  Rendered registrations/new.html.erb within layouts/application (16.8ms)
+Completed 200 OK in 73ms (Views: 68.5ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/sign_in" for 127.0.0.1 at 2018-04-17 14:48:00 -0300
+Processing by RegistrationsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"e45sfZI0JsOFYfBDiRCGcYvY6cgpICECX3k6FXUaCYoe+vPVJVroeYrTa+WrfP3008fZtbAK0NJ4dJbwcr7rCg==", "registrations"=>{"name"=>"", "last_name"=>"", "email"=>"", "phone"=>"", "password"=>"[FILTERED]"}, "commit"=>"Sign in"}
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mUser Exists (0.3ms)[0m  [1m[34mSELECT  1 AS one FROM "users" WHERE "users"."email" = ? LIMIT ?[0m  [["email", ""], ["LIMIT", 1]]
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+Redirected to http://localhost:3000/sign_in
+Completed 302 Found in 57ms (ActiveRecord: 1.9ms)
+
+
+Started GET "/sign_in" for 127.0.0.1 at 2018-04-17 14:48:00 -0300
+Processing by RegistrationsController#new as HTML
+  Rendering registrations/new.html.erb within layouts/application
+  Rendered registrations/new.html.erb within layouts/application (6.7ms)
+Completed 200 OK in 117ms (Views: 115.8ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/sign_in" for 127.0.0.1 at 2018-04-17 14:48:23 -0300
+Processing by RegistrationsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"7dsCXlnocCST6tMYpQnzzi0WViEiWaK0bu8V0icpnI3Y6T3s/TtO2+M6ZgfxL5plkSrZBsjLNiqeyweUk+Nhyw==", "registrations"=>{"name"=>"Joaquin", "last_name"=>"Fernandez", "email"=>"jafernandez1@miuandes.cl", "phone"=>"997196931", "password"=>"[FILTERED]"}, "commit"=>"Sign in"}
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mUser Exists (0.2ms)[0m  [1m[34mSELECT  1 AS one FROM "users" WHERE "users"."email" = ? LIMIT ?[0m  [["email", "jafernandez1@miuandes.cl"], ["LIMIT", 1]]
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+Redirected to http://localhost:3000/sign_in
+Completed 302 Found in 12ms (ActiveRecord: 0.4ms)
+
+
+Started GET "/sign_in" for 127.0.0.1 at 2018-04-17 14:48:23 -0300
+Processing by RegistrationsController#new as HTML
+  Rendering registrations/new.html.erb within layouts/application
+  Rendered registrations/new.html.erb within layouts/application (2.4ms)
+Completed 200 OK in 75ms (Views: 71.3ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/sign_in" for 127.0.0.1 at 2018-04-17 14:48:54 -0300
+Processing by RegistrationsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"oGdORuZa09GU5bGOB4J7C3r1Ic0tiAuFdLSqIW9V/4KVVXH0QontLuQ1BJFTpBKgxsmu6scanxuEkLhn258CxA==", "registrations"=>{"name"=>"Andres", "last_name"=>"Fernandez", "email"=>"aafernandez1@miuandes.cl", "phone"=>"994196901", "password"=>"[FILTERED]"}, "commit"=>"Sign in"}
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mUser Exists (0.2ms)[0m  [1m[34mSELECT  1 AS one FROM "users" WHERE "users"."email" = ? LIMIT ?[0m  [["email", "aafernandez1@miuandes.cl"], ["LIMIT", 1]]
+  [1m[35mSQL (2.0ms)[0m  [1m[32mINSERT INTO "users" ("name", "last_name", "email", "phone", "password", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?)[0m  [["name", "Andres"], ["last_name", "Fernandez"], ["email", "aafernandez1@miuandes.cl"], ["phone", "994196901"], ["password", "Andres009"], ["created_at", "2018-04-17 17:48:54.526655"], ["updated_at", "2018-04-17 17:48:54.526655"]]
+  [1m[35m (54.8ms)[0m  [1m[36mcommit transaction[0m
+Redirected to http://localhost:3000/
+Completed 302 Found in 75ms (ActiveRecord: 57.1ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-04-17 14:48:54 -0300
+Processing by SessionsController#new as HTML
+  Rendering sessions/new.html.erb within layouts/application
+  Rendered sessions/new.html.erb within layouts/application (1.6ms)
+Completed 200 OK in 69ms (Views: 65.0ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/login" for 127.0.0.1 at 2018-04-17 14:49:21 -0300
+Processing by SessionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"e5REI0vq+Ely/S2jDwzNTa33eo2MIYoIpZuR6Y/3KbZOpnuR7znGtgItmLxbKqTmEcv1qmazHpZVv4OvOz3U8A==", "session"=>{"email"=>"aafernandez1@miuandes.cl", "password"=>"[FILTERED]"}, "commit"=>"Log In"}
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."email" IS NULL LIMIT ?[0m  [["LIMIT", 1]]
+Redirected to http://localhost:3000/
+Completed 302 Found in 85ms (ActiveRecord: 2.7ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-04-17 14:49:31 -0300
+Processing by SessionsController#new as HTML
+  Rendering sessions/new.html.erb within layouts/application
+  Rendered sessions/new.html.erb within layouts/application (2.3ms)
+Completed 200 OK in 100ms (Views: 98.8ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/login" for 127.0.0.1 at 2018-04-17 14:51:06 -0300
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by SessionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"1JlQ54/xleeU8GcpPQwBxfuH02awDVaXkPDfRqYWgdzhq29VKyKrGOQg0jZpKmhuR7tcQVqfwglg1M0AEtx8mg==", "session"=>{"email"=>"aafernandez1@miuandes.cl", "password"=>"[FILTERED]"}, "commit"=>"Log In"}
+Completed 400 Bad Request in 43ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionController::ParameterMissing (param is missing or the value is empty: sessions):
+  
+app/controllers/sessions_controller.rb:25:in `session_params'
+app/controllers/sessions_controller.rb:6:in `create'
+Started POST "/login" for 127.0.0.1 at 2018-04-17 14:51:34 -0300
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by SessionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"1JlQ54/xleeU8GcpPQwBxfuH02awDVaXkPDfRqYWgdzhq29VKyKrGOQg0jZpKmhuR7tcQVqfwglg1M0AEtx8mg==", "session"=>{"email"=>"aafernandez1@miuandes.cl", "password"=>"[FILTERED]"}, "commit"=>"Log In"}
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."email" = ? AND "users"."password" = ? LIMIT ?[0m  [["email", "aafernandez1@miuandes.cl"], ["password", "Joaco009"], ["LIMIT", 1]]
+Redirected to http://localhost:3000/
+Completed 302 Found in 45ms (ActiveRecord: 1.4ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-04-17 14:51:35 -0300
+Processing by SessionsController#new as HTML
+  Rendering sessions/new.html.erb within layouts/application
+  Rendered sessions/new.html.erb within layouts/application (23.2ms)
+Completed 200 OK in 430ms (Views: 428.9ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/login" for 127.0.0.1 at 2018-04-17 14:51:41 -0300
+Processing by SessionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"o+8NZ7GIdSeNM3uurvf/eV9yRmj08KPabhIV+EU5uf+W3TLVFVtL2P3jzrH60ZbS407JTx5iN0SeNge+8fNEuQ==", "session"=>{"email"=>"aafernandez1@miuandes.cl", "password"=>"[FILTERED]"}, "commit"=>"Log In"}
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."email" = ? AND "users"."password" = ? LIMIT ?[0m  [["email", "aafernandez1@miuandes.cl"], ["password", "Joaco009"], ["LIMIT", 1]]
+Redirected to http://localhost:3000/
+Completed 302 Found in 5ms (ActiveRecord: 0.3ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-04-17 14:51:41 -0300
+Processing by SessionsController#new as HTML
+  Rendering sessions/new.html.erb within layouts/application
+  Rendered sessions/new.html.erb within layouts/application (1.6ms)
+Completed 200 OK in 72ms (Views: 70.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-04-17 15:02:13 -0300
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by SessionsController#new as HTML
+  Rendering sessions/new.html.erb within layouts/application
+  Rendered sessions/new.html.erb within layouts/application (27.9ms)
+Completed 200 OK in 453ms (Views: 440.6ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/login" for 127.0.0.1 at 2018-04-17 15:02:19 -0300
+Processing by SessionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"YpG5GPuvTo3pCjv9EZ62pBjc4UDntVN3eOr6Ax4q2kJXo4aqX3xwcpnajuJFuN8PpOBuZw0nx+mIzuhFquAnBA==", "session"=>{"email"=>"aafernandez1@miuandes.cl", "password"=>"[FILTERED]"}, "commit"=>"Log In"}
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."email" = ? AND "users"."password" = ? LIMIT ?[0m  [["email", "aafernandez1@miuandes.cl"], ["password", "Joaco009"], ["LIMIT", 1]]
+Redirected to http://localhost:3000/
+Completed 302 Found in 35ms (ActiveRecord: 1.1ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-04-17 15:02:19 -0300
+Processing by SessionsController#new as HTML
+  Rendering sessions/new.html.erb within layouts/application
+  Rendered sessions/new.html.erb within layouts/application (1.6ms)
+Completed 200 OK in 62ms (Views: 61.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-04-17 15:04:44 -0300
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by SessionsController#new as HTML
+  Rendering sessions/new.html.erb within layouts/application
+  Rendered sessions/new.html.erb within layouts/application (23.3ms)
+Completed 200 OK in 455ms (Views: 437.0ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/login" for 127.0.0.1 at 2018-04-17 15:04:49 -0300
+Processing by SessionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"D0UkX7yNGH5SbQuSBoJy/Yvgy0f40/aLg3vauimDKsI6dxvtGF4mgSK9vo1SpBtWN9xEYBJBYhVzX8j8nUnXhA==", "session"=>{"email"=>"jafernandez1@miuandes.cl", "password"=>"[FILTERED]"}, "commit"=>"Log In"}
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."email" = ? LIMIT ?[0m  [["email", "jafernandez1@miuandes.cl"], ["LIMIT", 1]]
+Redirected to 
+Completed 500 Internal Server Error in 84ms (ActiveRecord: 1.8ms)
+
+
+  
+ActionController::UrlGenerationError (No route matches {:action=>"show", :controller=>"users"}):
+  
+app/controllers/sessions_controller.rb:10:in `create'
+Started POST "/login" for 127.0.0.1 at 2018-04-17 15:07:15 -0300
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by SessionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"D0UkX7yNGH5SbQuSBoJy/Yvgy0f40/aLg3vauimDKsI6dxvtGF4mgSK9vo1SpBtWN9xEYBJBYhVzX8j8nUnXhA==", "session"=>{"email"=>"jafernandez1@miuandes.cl", "password"=>"[FILTERED]"}, "commit"=>"Log In"}
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."email" = ? LIMIT ?[0m  [["email", "jafernandez1@miuandes.cl"], ["LIMIT", 1]]
+Completed 500 Internal Server Error in 93ms (ActiveRecord: 1.7ms)
+
+
+  
+ActionController::UrlGenerationError (No route matches {:action=>"show", :controller=>"users"}, missing required keys: [:id]):
+  
+app/controllers/sessions_controller.rb:10:in `create'
+Started POST "/login" for 127.0.0.1 at 2018-04-17 15:08:29 -0300
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by SessionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"D0UkX7yNGH5SbQuSBoJy/Yvgy0f40/aLg3vauimDKsI6dxvtGF4mgSK9vo1SpBtWN9xEYBJBYhVzX8j8nUnXhA==", "session"=>{"email"=>"jafernandez1@miuandes.cl", "password"=>"[FILTERED]"}, "commit"=>"Log In"}
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."email" = ? LIMIT ?[0m  [["email", "jafernandez1@miuandes.cl"], ["LIMIT", 1]]
+Redirected to http://localhost:3000/users/4
+Completed 302 Found in 92ms (ActiveRecord: 1.1ms)
+
+
+Started GET "/users/4" for 127.0.0.1 at 2018-04-17 15:08:30 -0300
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"4"}
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 4], ["LIMIT", 1]]
+Redirected to http://localhost:3000/
+Filter chain halted as :is_user_logged_in? rendered or redirected
+Completed 302 Found in 11ms (ActiveRecord: 0.3ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-04-17 15:08:30 -0300
+Processing by SessionsController#new as HTML
+  Rendering sessions/new.html.erb within layouts/application
+  Rendered sessions/new.html.erb within layouts/application (19.4ms)
+Completed 200 OK in 442ms (Views: 440.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/sign_in" for 127.0.0.1 at 2018-04-17 15:08:39 -0300
+Processing by RegistrationsController#new as HTML
+  Rendering registrations/new.html.erb within layouts/application
+  Rendered registrations/new.html.erb within layouts/application (17.9ms)
+Completed 200 OK in 83ms (Views: 77.4ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/sign_in" for 127.0.0.1 at 2018-04-17 15:09:10 -0300
+Processing by RegistrationsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"ZVZbHlXUUaCmREd1BRiY2DVHl8Y1ddgR/U1LdvG9foMAIsS24rqfGqn23NMndONdbVinu6xfKcHaQOeT9hmcAw==", "registrations"=>{"name"=>"hgjghjg", "last_name"=>"ghjghjghjg", "email"=>"bleh@bleh.bleh", "phone"=>"7896769675", "password"=>"[FILTERED]"}, "commit"=>"Sign in"}
+Completed 500 Internal Server Error in 575ms (ActiveRecord: 0.0ms)
+
+
+  
+NameError (undefined local variable or method `registration_params' for #<RegistrationsController:0x007f0a6131a0c0>
+Did you mean?  registrations_path):
+  
+app/controllers/registrations_controller.rb:7:in `create'
+Started POST "/sign_in" for 127.0.0.1 at 2018-04-17 15:09:55 -0300
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by RegistrationsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"ZVZbHlXUUaCmREd1BRiY2DVHl8Y1ddgR/U1LdvG9foMAIsS24rqfGqn23NMndONdbVinu6xfKcHaQOeT9hmcAw==", "registrations"=>{"name"=>"hgjghjg", "last_name"=>"ghjghjghjg", "email"=>"bleh@bleh.bleh", "phone"=>"7896769675", "password"=>"[FILTERED]"}, "commit"=>"Sign in"}
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mUser Exists (1.2ms)[0m  [1m[34mSELECT  1 AS one FROM "users" WHERE "users"."email" = ? LIMIT ?[0m  [["email", "bleh@bleh.bleh"], ["LIMIT", 1]]
+  [1m[35mSQL (6.3ms)[0m  [1m[32mINSERT INTO "users" ("name", "last_name", "email", "phone", "password", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?)[0m  [["name", "hgjghjg"], ["last_name", "ghjghjghjg"], ["email", "bleh@bleh.bleh"], ["phone", "7896769675"], ["password", "Bleh1234"], ["created_at", "2018-04-17 18:09:56.228667"], ["updated_at", "2018-04-17 18:09:56.228667"]]
+  [1m[35m (15.3ms)[0m  [1m[36mcommit transaction[0m
+Redirected to http://localhost:3000/
+Completed 302 Found in 119ms (ActiveRecord: 24.1ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-04-17 15:09:56 -0300
+Processing by SessionsController#new as HTML
+  Rendering sessions/new.html.erb within layouts/application
+  Rendered sessions/new.html.erb within layouts/application (22.4ms)
+Completed 200 OK in 510ms (Views: 498.2ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/login" for 127.0.0.1 at 2018-04-17 15:10:05 -0300
+Processing by SessionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"zdBFJNq/U0i5sq0jJZXPVGoXEyA0XZdnzZxqFVGw3Pf44nqWfmxtt8liGDxxs6b/1iucB97PA/k9uHhT5XohsQ==", "session"=>{"email"=>"bleh@bleh.bleh", "password"=>"[FILTERED]"}, "commit"=>"Log In"}
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."email" = ? LIMIT ?[0m  [["email", "bleh@bleh.bleh"], ["LIMIT", 1]]
+Redirected to http://localhost:3000/users/6
+Completed 302 Found in 13ms (ActiveRecord: 0.4ms)
+
+
+Started GET "/users/6" for 127.0.0.1 at 2018-04-17 15:10:05 -0300
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"6"}
+  [1m[36mUser Load (4.5ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 6], ["LIMIT", 1]]
+Redirected to http://localhost:3000/
+Filter chain halted as :is_user_logged_in? rendered or redirected
+Completed 302 Found in 7ms (ActiveRecord: 4.5ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-04-17 15:10:06 -0300
+Processing by SessionsController#new as HTML
+  Rendering sessions/new.html.erb within layouts/application
+  Rendered sessions/new.html.erb within layouts/application (5.7ms)
+Completed 200 OK in 123ms (Views: 122.0ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/login" for 127.0.0.1 at 2018-04-17 15:10:17 -0300
+Processing by SessionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"Uvja1eaV29tmyP8nYnlKekEbhGDJeGdIYsNaThdpSxJnyuVnQkblJBYYSjg2XyPR/ScLRyPq89aS50gIo6O2VA==", "session"=>{"email"=>"bleh@bleh.bleh", "password"=>"[FILTERED]"}, "commit"=>"Log In"}
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."email" = ? LIMIT ?[0m  [["email", "bleh@bleh.bleh"], ["LIMIT", 1]]
+Redirected to http://localhost:3000/users/6
+Completed 302 Found in 6ms (ActiveRecord: 0.2ms)
+
+
+Started GET "/users/6" for 127.0.0.1 at 2018-04-17 15:10:17 -0300
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"6"}
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 6], ["LIMIT", 1]]
+Redirected to http://localhost:3000/
+Filter chain halted as :is_user_logged_in? rendered or redirected
+Completed 302 Found in 4ms (ActiveRecord: 0.1ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-04-17 15:10:17 -0300
+Processing by SessionsController#new as HTML
+  Rendering sessions/new.html.erb within layouts/application
+  Rendered sessions/new.html.erb within layouts/application (2.2ms)
+Completed 200 OK in 74ms (Views: 73.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-04-17 15:12:45 -0300
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by SessionsController#new as HTML
+  Rendering sessions/new.html.erb within layouts/application
+  Rendered sessions/new.html.erb within layouts/application (30.1ms)
+Completed 200 OK in 481ms (Views: 460.8ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/login" for 127.0.0.1 at 2018-04-17 15:12:50 -0300
+Processing by SessionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"HUOJ+/GczGT4nDsbbaCaIjCnwBjs8UxLjKJvLmQPMSwocbZJVU/ym4hMjgQ5hvOJjJtPPwZj2NV8hn1o0MXMag==", "session"=>{"email"=>"bleh@bleh.bleh", "password"=>"[FILTERED]"}, "commit"=>"Log In"}
+Completed 400 Bad Request in 21ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionController::ParameterMissing (param is missing or the value is empty: sessions):
+  
+app/controllers/sessions_controller.rb:25:in `session_params'
+app/controllers/sessions_controller.rb:6:in `create'
+Started POST "/login" for 127.0.0.1 at 2018-04-17 15:13:12 -0300
+  [1m[35m (0.8ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by SessionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"HUOJ+/GczGT4nDsbbaCaIjCnwBjs8UxLjKJvLmQPMSwocbZJVU/ym4hMjgQ5hvOJjJtPPwZj2NV8hn1o0MXMag==", "session"=>{"email"=>"bleh@bleh.bleh", "password"=>"[FILTERED]"}, "commit"=>"Log In"}
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE (bleh@bleh.bleh) LIMIT ?[0m  [["LIMIT", 1]]
+Completed 500 Internal Server Error in 54ms (ActiveRecord: 0.5ms)
+
+
+  
+ActiveRecord::StatementInvalid (SQLite3::SQLException: near "@bleh": syntax error: SELECT  "users".* FROM "users" WHERE (bleh@bleh.bleh) LIMIT ?):
+  
+app/controllers/sessions_controller.rb:6:in `create'
+Started POST "/login" for 127.0.0.1 at 2018-04-17 15:13:33 -0300
+  [1m[35m (0.5ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by SessionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"HUOJ+/GczGT4nDsbbaCaIjCnwBjs8UxLjKJvLmQPMSwocbZJVU/ym4hMjgQ5hvOJjJtPPwZj2NV8hn1o0MXMag==", "session"=>{"email"=>"bleh@bleh.bleh", "password"=>"[FILTERED]"}, "commit"=>"Log In"}
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."email" = ? LIMIT ?[0m  [["email", "bleh@bleh.bleh"], ["LIMIT", 1]]
+Completed 500 Internal Server Error in 97ms (ActiveRecord: 1.3ms)
+
+
+  
+NoMethodError (undefined method `authenticate' for #<User:0x007f8924ac2768>):
+  
+app/controllers/sessions_controller.rb:7:in `create'
+Started POST "/login" for 127.0.0.1 at 2018-04-17 15:13:52 -0300
+  [1m[35m (0.7ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by SessionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"HUOJ+/GczGT4nDsbbaCaIjCnwBjs8UxLjKJvLmQPMSwocbZJVU/ym4hMjgQ5hvOJjJtPPwZj2NV8hn1o0MXMag==", "session"=>{"email"=>"bleh@bleh.bleh", "password"=>"[FILTERED]"}, "commit"=>"Log In"}
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."email" = ? LIMIT ?[0m  [["email", "bleh@bleh.bleh"], ["LIMIT", 1]]
+Completed 500 Internal Server Error in 79ms (ActiveRecord: 1.6ms)
+
+
+  
+ActionController::UrlGenerationError (No route matches {:action=>"show", :controller=>"users"}, missing required keys: [:id]):
+  
+app/controllers/sessions_controller.rb:10:in `create'
+Started POST "/login" for 127.0.0.1 at 2018-04-17 15:14:23 -0300
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by SessionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"HUOJ+/GczGT4nDsbbaCaIjCnwBjs8UxLjKJvLmQPMSwocbZJVU/ym4hMjgQ5hvOJjJtPPwZj2NV8hn1o0MXMag==", "session"=>{"email"=>"bleh@bleh.bleh", "password"=>"[FILTERED]"}, "commit"=>"Log In"}
+  [1m[36mUser Load (0.8ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."email" = ? LIMIT ?[0m  [["email", "bleh@bleh.bleh"], ["LIMIT", 1]]
+Redirected to http://localhost:3000/users/6
+Completed 302 Found in 82ms (ActiveRecord: 2.9ms)
+
+
+Started GET "/users/6" for 127.0.0.1 at 2018-04-17 15:14:23 -0300
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"6"}
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 6], ["LIMIT", 1]]
+Redirected to http://localhost:3000/
+Filter chain halted as :is_user_logged_in? rendered or redirected
+Completed 302 Found in 11ms (ActiveRecord: 0.3ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-04-17 15:14:23 -0300
+Processing by SessionsController#new as HTML
+  Rendering sessions/new.html.erb within layouts/application
+  Rendered sessions/new.html.erb within layouts/application (20.9ms)
+Completed 200 OK in 410ms (Views: 403.9ms | ActiveRecord: 0.0ms)
+
+
